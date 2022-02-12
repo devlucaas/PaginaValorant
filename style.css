@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Fredoka+One&family=Rowdies:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rowdies', cursive;
+    
+}
+
+body {
+    background: url(img/valorant_img.webp); 
+    
+}
+
+body style {
+    cursor: no-pointer;
+}
+
+#logo {
+    padding-top: 100px;
+    padding-left: 120px;
+}
+.RIOT {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 7%; 
+}
+
+.RIOT a {
+    margin-left: 50%;
+    margin-top: 3%;
+    padding: 22px 20px;
+    color:white;
+    background-color: #1a1435;
+    border: none;
+    box-shadow: 5px 5px rgb(0, 0, 0);
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.3s;
+    
+}
+
+.RIOT a:hover {
+    background-color: #f1414e;
+}
+
+.menu h1 {
+    padding-left: 40%;
+    color: white;
+    text-shadow: 8px 10px 3px #5c2629;
+    font-size: 52px;
+}
+
+.conteudo {
+    display: auto;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.conteudo h1{
+    margin-top: 36px;
+    padding-left: 5%;
+    font-size: 48px;
+    color: white;
+    text-shadow: 8px 10px 3px #5c2629;
+    margin-bottom: 14px;
+}
+
+.campeoes {
+    display: flex;
+    padding-left: 5%;
+    gap: 20px
+}
+
+.omen {
+    display: flex;
+    flex-direction: column;
+}
+
+.sage {
+    display: flex;
+    flex-direction: column;
+}
+
+.sova {
+    display: flex;
+    flex-direction: column;
+}
+
+.campeoes span {
+    font-size: 20px;
+    color: white;
+    text-shadow: 8px 4px 3px #491e21;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 4%;
+    margin-bottom: 20px;
+    gap:25px;
+}
+
+#facebook {
+    width: 30px;
+    height: 25px;
+}
+#instagram {
+    width: 25px;
+    height: 25px;
+}
+#linkedin {
+    width: 34px;
+    height: 32px;
+}
+
+@media (max-width: 400px) {
+    .campeoes{
+        flex-direction: column;
+        width: 100%;
+    }
+    .menu h1 {
+        padding-left: 1%;
+        margin-top: 5%;
+        width: 100%;    
+    }
+    .conteudo h1{
+        margin-left: 18px;
+    }
+    .RIOT {
+        padding: 0;
+        
+    }
+    #logo{
+        padding: 0;
+    }
+}
